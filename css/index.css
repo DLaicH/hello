@@ -113,3 +113,16 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+a.btn {
+    display: block;
+    background-color:#4B6A94;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
