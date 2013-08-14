@@ -7,6 +7,17 @@
 		<!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
 		<title>Hello World</title>
 		
+		<script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+		<!--<script type="text/javascript" src="jquery.mobile-1.3.2.min.js"></script>-->
+		<script type="text/javascript">
+			//app.initialize();
+			
+			$(document).ready(function() {
+				$("#win-width").text($(window).width() + 'px');
+				$("#win-height").text($(window).height() + 'px');
+			});
+		</script>
 	</head>
 	<body>
 		<div class="app">
@@ -16,20 +27,5 @@
 				<li>Window Height: <span id="win-height"></span></li>
 			</ul>
 		</div>
-		<script type="text/javascript" src="phonegap.js"></script>
-		<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
-		<!--<script type="text/javascript" src="jquery.mobile-1.3.2.min.js"></script>-->
-		<script type="text/javascript">
-			//app.initialize();
-			
-			//alert(window.innerWidth + "px");
-			$("#win-width").text('px');
-			$("#win-height").text('px');
-			
-			$(document).ready(function() {
-				//$("#win-width").text($(window).width() + 'px');
-				//$("#win-height").text($(window).height() + 'px');
-			});
-		</script>
 	</body>
 </html>
